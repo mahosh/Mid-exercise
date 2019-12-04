@@ -75,6 +75,13 @@ nav#menu a:hover {
     padding: 3px 0;
     border-bottom: 1px black solid;
 }
+#main .container {
+    display: flex;
+}
+#row_a, #row_b {
+    display: flex;
+    flex-direction: column;
+}
 #footer {
     background-color: rgb(177, 177, 177);
     position: fixed;
