@@ -80,6 +80,25 @@ nav#menu a:hover {
 }
 #row_a{
     align-items: flex-end;
+    margin-top: 20px;
+}
+#row_a > .column:first-child{
+    width: 291px;
+    height: 354px;
+    background-image: url("1908364606615453350.JPG");
+}
+#row_a > .column:first-child + div{
+    width: 291px;
+    height: 354px;
+    background-image: url("Picture-046410251500.jpg");
+}
+#row_a > .column:last-child {
+    width: 291px;
+    height: 354px;
+    background-image: url("פזקר_-291_354410564000.jpg");
+}
+#row_a > .column:not(:last-child) {
+    margin-left: 20px;
 }
 .textBox {
     color: #fff;
