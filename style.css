@@ -20,14 +20,18 @@ body {
     display: inline-block;
     margin: 0 6px;
 }
+#menuList{
+    list-style: none;
+}
 #menu a {
     color: #fff;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
 }
-.subMenu {
-    display: none;
+nav#menu a:hover {
+    text-decoration: underline;
+    color: #005CA0 ;
 }
 #search_and_language {
     position: absolute;
@@ -54,4 +58,24 @@ body {
 }
 #header > .container {
     position: relative;
+}
+.category {
+    position: relative;
+}
+.subMenu {
+    padding: 0 2px;
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    background-color: rgb(177, 177, 177);
+}
+.category:hover > .subMenu {
+    display: list-item;
+    
+}
+.subCategory {
+    padding: 3px 0;
+    border-bottom: 1px black solid;
 }
