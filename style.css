@@ -12,10 +12,6 @@ body {
 #header {
     background-color: rgb(177, 177, 177);
 }
-.separate > img {
-    height: 21px;
-    width: 2px;
-}
 #menuList > li {
     display: inline-block;
     margin: 0 6px;
