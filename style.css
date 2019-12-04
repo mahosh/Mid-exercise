@@ -1,3 +1,12 @@
 #logo {
     display: inline;
 }
+#language{
+    position: absolute;
+}
+#searchBox {
+    position: absolute;
+}
+#header > .container {
+    position: relative;
+}
