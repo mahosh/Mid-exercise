@@ -15,9 +15,11 @@ body {
 #menuList > li {
     display: inline-block;
     margin: 0 6px;
+    padding-bottom: 20px;
 }
 #menuList{
     list-style: none;
+    margin-block-end: 0px;
 }
 #menu a {
     color: #fff;
@@ -71,10 +73,13 @@ nav#menu a:hover {
     display: list-item;
     
 }
-.subCategory {
-    padding: 3px 0;
-    border-bottom: 1px black solid;
+.subCategory:not(:last-child) {
+    border-bottom: 1px white solid;
 }
+.subCategory {
+    padding: 5px 3px;
+}
+
 #row_a, #row_b {
     display: flex;
 }
