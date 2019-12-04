@@ -79,4 +79,5 @@ nav#menu a:hover {
     background-color: rgb(177, 177, 177);
     position: fixed;
     bottom: 0px;
+    width: 100%;
 }
