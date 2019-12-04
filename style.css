@@ -87,6 +87,13 @@ nav#menu a:hover {
     align-items: flex-end;
     margin-top: 20px;
 }
+#row_a >.column {
+    display: flex;
+    align-items: flex-end;
+}
+.textBox {
+    margin: 0px 10px 20px 50px;
+}
 #row_a > .column:first-child{
     width: 291px;
     height: 354px;
@@ -107,7 +114,10 @@ nav#menu a:hover {
 }
 .textBox {
     color: #fff;
-    background-color: lightgrey;
+    background-color: rgb(105, 105, 105);
+}
+.textBox > * {
+    margin: 0px 3px 0px 0px;
 }
 #footer {
     background-color: rgb(177, 177, 177);
