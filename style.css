@@ -90,3 +90,13 @@ nav#menu a:hover {
     text-decoration: underline;
     color: #005CA0 !important;
 }
+#footer .container {
+    padding-top: 10px;
+}
+#footer .separate {
+    color: #fff !important;
+}
+#facebook_icon {
+    position: relative;
+    top: 4px;
+}
