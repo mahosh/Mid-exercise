@@ -1,11 +1,56 @@
-#logo {
-    display: inline;
+body {
+    direction: rtl;
 }
-#language{
+.container {
+    margin: auto;
+    width: 900px;
+    height: auto;
+}
+#menu {
+    display: inline-block;
+}
+#header {
+    background-color: rgb(177, 177, 177);
+}
+.separate > img {
+    height: 21px;
+    width: 2px;
+}
+#menuList > li {
+    display: inline-block;
+    margin: 0 6px;
+}
+#menu a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.subMenu {
+    display: none;
+}
+#search_and_language {
+    position: absolute;
+    top: 16px;
+    left: 0px;
+}
+#search_and_language > *{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+#search_and_language a {
+    height: 19px;
+    top: 1px;
     position: absolute;
 }
 #searchBox {
-    position: absolute;
+    margin-right: 65px;
+}
+#logo {
+    display: inline-block;
+    position: relative;
+    top: 35px;
 }
 #header > .container {
     position: relative;
