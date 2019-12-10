@@ -252,6 +252,13 @@ a.readMore > span {
     padding: 3px 0px 3px 10px;
     border: 1px solid #808992;
  }
+ #sendButton {
+     margin-right: 74%;
+ }
+ #sendButton > button{
+    color: white;
+    background-color: #1d1eff;
+ }
  #textBoxes {
     display: flex;
     flex-direction: column;
