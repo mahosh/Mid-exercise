@@ -133,6 +133,9 @@ a.readMore > span {
 #row_b > .column{
     width: 291px;
 }
+#lastColumn {
+
+}
 .miniHeadline {
     position: relative;
     height: 34px;
@@ -170,4 +173,24 @@ a.readMore > span {
 }
 #footer span:last-child a{
     color: red !important;
+}
+#rightSideBar a, #breadcrumbs a{
+    text-decoration: none;
+}
+#breadcrumbs {
+    font-size: 12px;
+}
+#mainContent h1 {
+    font-size: 15px;
+}
+#form-holder label {
+    color: #6d6d6d;
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+}
+#form-holder input {
+    width: 160px;
+    padding: 3px;
+    border: 1px solid #808992;
 }
