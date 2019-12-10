@@ -1,5 +1,6 @@
 body {
     direction: rtl;
+    font-family: 'Arial (Hebrew)', Arial;
 }
 .container {
     margin: auto;
@@ -127,7 +128,6 @@ a.readMore > span {
 .textBox > h3 {
     font-size: 14px;
     font-weight: bold;
-    font-family: 'Arial (Hebrew)', Arial;
     margin-bottom: 5px;
 }
 #row_b > .column{
@@ -144,7 +144,6 @@ a.readMore > span {
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 15px;
-    font-family: 'Arial (Hebrew)', Arial;
 }
 #footer {
     background-color: rgb(177, 177, 177);
@@ -182,15 +181,50 @@ a.readMore > span {
 }
 #mainContent h1 {
     font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+    color: #72716d;
+}
+#form-holder {
+    width: 347px;
+}
+#form-holder > h2 {
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+ }
+#form-holder > h2 + p {
+    display: block;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 5px 0;
+}
+#form-holder > p + p {
+    color: #72716d;
+    font-size: 12px;
+ }
+#form-holder form {
+    margin-right: 50px;
+}
+#form-holder form > div:not(:last-child) {
+    margin-bottom: 5px;
 }
 #form-holder label {
     color: #6d6d6d;
     display: inline-block;
     width: 75px;
     text-align: right;
+    font-size: 12px;
 }
 #form-holder input {
     width: 160px;
     padding: 3px;
     border: 1px solid #808992;
+}
+.content {
+    display: flex;
 }
