@@ -248,3 +248,16 @@ a.readMore > span {
     padding: 3px 0px 3px 10px;
     border: 1px solid #808992;
  }
+ #box1 > p {
+    font-size: 13px;
+    color: #6d6d6d;
+    margin: 0;
+ }
+ #box2 > a{
+    text-decoration: none;
+    font-size: 13px;
+    color: blue;
+ }
+ #box2 > p{
+     margin: 0;
+ }
