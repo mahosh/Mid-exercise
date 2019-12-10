@@ -119,6 +119,11 @@ nav#menu a:hover {
 .textBox > * {
     margin: 0px 3px 0px 0px;
 }
+a > span {
+    color: #fff;
+    margin-right: 145px;
+    font-size: 13px;
+}
 #footer {
     background-color: rgb(177, 177, 177);
     position: fixed;
