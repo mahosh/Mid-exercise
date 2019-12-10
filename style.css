@@ -177,6 +177,19 @@ a.readMore > span {
     margin-top: 20px;
     font-family: 'Arial (Hebrew)', Arial;
 }
+#main h2 {
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+ }
+.boldParagraph {
+    display: block;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 5px 0;
+}
 #rightSideBar {
     width: 122px;
     margin-left: 22px;
@@ -204,19 +217,6 @@ a.readMore > span {
 #form-holder {
     margin-right: 15px;
     width: 347px;
-}
-#form-holder > h2 {
-    color: #005ca0;
-    font-weight: bold;
-    font-size: 15px;
- }
-#form-holder > h2 + p {
-    display: block;
-    color: #6d6d6d;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 1.2;
-    margin: 5px 0;
 }
 #form-holder > p + p {
     color: #72716d;
