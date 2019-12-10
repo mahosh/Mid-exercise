@@ -1,6 +1,5 @@
 body {
     direction: rtl;
-    font-family: 'Arial (Hebrew)', Arial;
 }
 .container {
     margin: auto;
@@ -173,6 +172,20 @@ a.readMore > span {
 #footer span:last-child a{
     color: red !important;
 }
+.content {
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Arial (Hebrew)', Arial;
+}
+#rightSideBar {
+    width: 122px;
+    margin-left: 22px;
+}
+#rightSideBar span{
+    font-size: 13px;
+    color: #5c5c5c;
+    line-height: 32px;
+ }
 #rightSideBar a, #breadcrumbs a{
     text-decoration: none;
 }
@@ -186,8 +199,10 @@ a.readMore > span {
     margin-bottom: 12px;
     padding-bottom: 4px;
     color: #72716d;
+    margin-top: 20px;
 }
 #form-holder {
+    margin-right: 15px;
     width: 347px;
 }
 #form-holder > h2 {
@@ -225,6 +240,11 @@ a.readMore > span {
     padding: 3px;
     border: 1px solid #808992;
 }
-.content {
-    display: flex;
-}
+
+#form-holder form textarea {
+    color: #6d6d6d;
+    width: 235px;
+    height: 100px;
+    padding: 3px 0px 3px 10px;
+    border: 1px solid #808992;
+ }
